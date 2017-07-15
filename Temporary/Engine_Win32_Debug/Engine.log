@@ -1,0 +1,51 @@
+﻿Build started 3/22/2016 11:29:25 PM.
+     1>Project "S:\Guildhall\P4\Projects\Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IS:\Guildhall\P4\Projects\Engine\../ /ZI /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\\" /Fd"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Parsing\BufferParser\BufferParser.cpp
+         BufferParser.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Engine.lib" /NOLOGO S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Commandlet.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\CommandletRegistration.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Camera3D.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Clock.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\DebugDrawShapes.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\DeveloperConsole.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\HenryFunctions.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Profiling.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Time.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\InputSystem.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\XBoxController.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Matrix4.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Quaternion.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\MemoryAllocatePool.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\NetworkingSystem.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\BufferParser.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\C23Parser.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\FileSystem.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\jpgd.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\jpge.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\ObjLoader.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\tinystr.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\tinyxml.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\tinyxmlerror.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\TinyXMLHelper.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\tinyxmlparser.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\unzip.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\zip.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\ZipHelper.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\ParticleSystem.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\ParticleUpdateFunctions.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Billboard.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\BitmapFont.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Material.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\OpenglRenderer.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\OpenGLShader.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Sprites.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\stb_image.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Texture.obj
+         Engine.vcxproj -> S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\\..\Temporary\Engine_Win32_Debug\Engine.lib
+     1>Done Building Project "S:\Guildhall\P4\Projects\Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

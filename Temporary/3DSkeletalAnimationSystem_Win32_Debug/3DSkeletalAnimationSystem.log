@@ -1,0 +1,33 @@
+﻿Build started 3/22/2016 11:29:26 PM.
+     1>Project "S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\GameCode\3DSkeletalAnimationSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IS:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\../../ /IS:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\ /ZI /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\\" /Fd"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TheGame.cpp
+         TheGame.cpp
+     1>s:\guildhall\p4\projects\dfs2\3dskeletalanimation\gamecode\thegame.cpp(155): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>s:\guildhall\p4\projects\dfs2\3dskeletalanimation\gamecode\thegame.cpp(155): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.lib" /MACHINE:X86 S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe.embed.manifest.res
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\AnimationActor.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\Link.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\PointMass.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\SkeletalAnimationObject.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\SkeletalAnimationSystem.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\main_win32.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\Skeleton.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\TheApplication.obj
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\TheGame.obj
+         S:\Guildhall\P4\Projects\DFS2\Temporary\Engine_Win32_Debug\Engine.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe.embed.manifest" /manifest S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe.intermediate.manifest
+       LinkEmbedManifest:
+         3DSkeletalAnimationSystem.vcxproj -> S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe
+       PostBuildEvent:
+         xcopy /Y /F /I "S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe" "S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Run_Win32\"
+         :VCEnd
+         S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimationSystem_Win32_Debug\3DSkeletalAnimationSystem.exe -> S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Run_Win32\3DSkeletalAnimationSystem.exe
+         1 File(s) copied
+     1>Done Building Project "S:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\GameCode\3DSkeletalAnimationSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49

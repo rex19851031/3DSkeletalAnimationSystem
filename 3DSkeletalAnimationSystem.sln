@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\..\Engine\Engine.vcxproj", "{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DSkeletalAnimationSystem", "GameCode\3DSkeletalAnimationSystem.vcxproj", "{F86F7265-786B-4B13-B969-473658455104}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9} = {BD2326F7-4026-4B2F-B67A-2B262FFE51A9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugInline|Win32 = DebugInline|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Debug|Win32.Build.0 = Debug|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.DebugInline|Win32.ActiveCfg = DebugInline|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.DebugInline|Win32.Build.0 = DebugInline|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Release|Win32.ActiveCfg = Release|Win32
+		{BD2326F7-4026-4B2F-B67A-2B262FFE51A9}.Release|Win32.Build.0 = Release|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.Debug|Win32.Build.0 = Debug|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.DebugInline|Win32.ActiveCfg = DebugInline|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.DebugInline|Win32.Build.0 = DebugInline|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.Release|Win32.ActiveCfg = Release|Win32
+		{F86F7265-786B-4B13-B969-473658455104}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

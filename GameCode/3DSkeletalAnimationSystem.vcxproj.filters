@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main_win32.cpp" />
+    <ClCompile Include="TheApplication.cpp" />
+    <ClCompile Include="TheGame.cpp" />
+    <ClCompile Include="SkeletalAnimationSystem.cpp" />
+    <ClCompile Include="SkeletalAnimationObject.cpp" />
+    <ClCompile Include="AnimationActor.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="Link.cpp" />
+    <ClCompile Include="PointMass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheApplication.hpp" />
+    <ClInclude Include="TheGame.hpp" />
+    <ClInclude Include="SkyBox\SkyBox.hpp">
+      <Filter>SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp" />
+    <ClInclude Include="SkeletalAnimationSystem.hpp" />
+    <ClInclude Include="SkeletalAnimationObject.hpp" />
+    <ClInclude Include="AnimationActor.hpp" />
+    <ClInclude Include="Skeleton.hpp" />
+    <ClInclude Include="Link.hpp" />
+    <ClInclude Include="PointMass.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SkyBox">
+      <UniqueIdentifier>{547b9539-391a-4bb0-af85-639083f5cbf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Run_Win32\Data\Shaders\doNothing_vertex.glsl" />
+    <None Include="..\Run_Win32\Data\Shaders\doNothing_fragment.glsl" />
+  </ItemGroup>
+</Project>

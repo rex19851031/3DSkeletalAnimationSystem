@@ -1,0 +1,38 @@
+﻿Build started 1/20/2016 5:36:30 PM.
+     1>Project "D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\GameCode\3DSkeletalAnimation.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\../../ /ID:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\ /ZI /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\\" /Fd"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 3DSkeletalAnimationSystem.cpp main_win32.cpp TheApplication.cpp TheGame.cpp
+         3DSkeletalAnimationSystem.cpp
+         main_win32.cpp
+         TheApplication.cpp
+         TheGame.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.embed.manifest.res" D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.lib" /MACHINE:X86 D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.embed.manifest.res
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimationSystem.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\main_win32.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\TheApplication.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\TheGame.obj
+         D:\Guildhall\P4\Projects\DFS2\Temporary\Engine_Win32_Debug\Engine.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.embed.manifest" /manifest D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.embed.manifest.res" D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.lib" /MACHINE:X86 D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe.embed.manifest.res
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimationSystem.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\main_win32.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\TheApplication.obj
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\TheGame.obj
+         D:\Guildhall\P4\Projects\DFS2\Temporary\Engine_Win32_Debug\Engine.lib
+         3DSkeletalAnimation.vcxproj -> D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe
+       PostBuildEvent:
+         xcopy /Y /F /I "D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe" "D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Run_Win32\"
+         :VCEnd
+         D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Temporary\3DSkeletalAnimation_Win32_Debug\3DSkeletalAnimation.exe -> D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\Run_Win32\3DSkeletalAnimation.exe
+         1 File(s) copied
+     1>Done Building Project "D:\Guildhall\P4\Projects\DFS2\3DSkeletalAnimation\GameCode\3DSkeletalAnimation.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23
